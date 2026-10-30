@@ -1,0 +1,26 @@
+{
+  "provider": "Databento",
+  "dataset": "XNAS.ITCH",
+  "schema": "trades",
+  "description": "Unmodified individual historical trade events; no aggregation or event sampling. Replay is simulated; market observations are historical.",
+  "request": {
+    "dataset": "XNAS.ITCH",
+    "schema": "trades",
+    "symbols": [
+      "AAPL",
+      "SPY"
+    ],
+    "stype_in": "raw_symbol",
+    "start": "2025-09-15T14:30:00Z",
+    "end": "2025-09-15T14:45:00Z"
+  },
+  "display_timezone": "America/New_York",
+  "retrieved_at": "2026-10-26T01:25:10.835748+00:00",
+  "records": 11596,
+  "symbols": [
+    "AAPL",
+    "SPY"
+  ],
+  "sha256": "60125646738e58a939b4474dde2b91b62aa2efbdf18182c8960285936f2aa9b4",
+  "file": "xnas_itch_aapl_spy_2025-09-15_trades.parquet"
+}

@@ -1,0 +1,24 @@
+{
+  "provider": "Databento",
+  "dataset": "XNAS.ITCH",
+  "schema": "mbp-1",
+  "description": "Unmodified historical level-one order book events from Nasdaq. Replay is simulated; market observations are historical.",
+  "request": {
+    "dataset": "XNAS.ITCH",
+    "schema": "mbp-1",
+    "symbols": [
+      "AAPL"
+    ],
+    "stype_in": "raw_symbol",
+    "start": "2025-09-15T14:30:00Z",
+    "end": "2025-09-15T14:30:30Z"
+  },
+  "display_timezone": "America/New_York",
+  "retrieved_at": "2026-10-26T01:16:43.018818+00:00",
+  "records": 2109,
+  "symbols": [
+    "AAPL"
+  ],
+  "sha256": "0415db934985c7af764839b52a4210252ba4b680319215166eda9b86fd0eb06c",
+  "file": "xnas_itch_aapl_2025-09-15_quotes.parquet"
+}
