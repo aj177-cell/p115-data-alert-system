@@ -1,6 +1,8 @@
 databento==0.87.0
 pandas==3.0.6
+numpy==2.5.4
 matplotlib==3.11.2
 python-dotenv==1.2.4
 pyarrow==26.0.0
 ipython==9.17.1
+pytest==9.2.0
