@@ -1,3 +1,11 @@
+"""Streaming data-quality checks on normalized events.
+
+Three rules: record integrity, event time against the high-water mark in the
+same source scope, and an immediate crossed quote. The batch checks in
+``alert_system.quality`` keep their own book-state, clock, gap, spread, and
+sequence logic. Both implementations stay; see the README.
+"""
+
 from copy import deepcopy
 from dataclasses import dataclass, field
 from datetime import datetime
