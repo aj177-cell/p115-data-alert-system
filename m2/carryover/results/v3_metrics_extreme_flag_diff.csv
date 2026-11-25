@@ -1,0 +1,4 @@
+ts_recv,instrument_id,subtype,severity_stored,detail_stored,severity_regen,detail_regen,_merge
+2026-10-08 13:34:25.078662685+00:00,102,robust_z_mid,high,price=499.385 return=-0.000300324,,,left_only
+2026-10-08 13:34:25.351703514+00:00,102,robust_z_trade,high,price=499.4 return=-0.000300315,,,left_only
+2026-10-08 13:59:25.878049238+00:00,101,robust_z_trade,high,price=100.18 return=-0.00139651,,,left_only

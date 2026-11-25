@@ -1,0 +1,30 @@
+source,rule,subtype,condition,severity_m2,native_severity,rationale,level_m2
+engine_m1,integrity,*,,high,critical,"malformed record (zero/undefined side, bad timestamp)",3
+engine_m1,crossed_quote,*,f_last_false,info,warning,intermediate book state; v3 skips these records,0
+engine_m1,crossed_quote,*,,high,warning,same evidence as v3 crossed_books/crossed (high),3
+engine_m1,time_order,*,,low,warning,same evidence as v3 ts_event_inversion (low); ts_event is not guaranteed monotonic,1
+detectors_v3,crossed_books,crossed,,high,high,,3
+detectors_v3,crossed_books,locked,,low,medium,locked books occur in fast markets; not wrong data,1
+detectors_v3,extreme_prices,*,,high,high,,3
+detectors_v3,timestamp_inversions,ts_recv_inversion,,high,high/info,info kept when F_BAD_TS_RECV,3
+detectors_v3,timestamp_inversions,negative_latency,,high,high,,3
+detectors_v3,timestamp_inversions,latency_outlier,,medium,medium,,2
+detectors_v3,timestamp_inversions,ts_event_inversion,,low,low,,1
+detectors_v3,timestamp_inversions,ts_in_delta_saturated,,low,low,,1
+detectors_v3,missing_intervals,trade_pause,,info,medium,"trades schema, quotes active inside the pause (item 4)",0
+detectors_v3,missing_intervals,trade_pause_below_floor,,info,medium,"trades schema, below the trades-only floor (item 4)",0
+detectors_v3,missing_intervals,gap,value_gt_max_gap,high,high,longer than max_gap_s = 60 s,3
+detectors_v3,missing_intervals,gap,,medium,medium,,2
+detectors_v3,missing_intervals,*,,low,low,incomplete_bar_*: OHLCV omits minutes with no trades,1
+detectors_v3,stale_quotes,quiet,,info,info,,0
+detectors_v3,stale_quotes,*,,medium,high,"a stale book is usually a quiet name; review, not exclude",2
+detectors_v3,unusual_spreads,zero_or_negative,,high,high,,3
+detectors_v3,unusual_spreads,*,,low,medium,wide spreads at open/close and on news are market behaviour,1
+detectors_v3,sequence_discontinuities,regression,,high,high,,3
+detectors_v3,sequence_discontinuities,*,,medium,medium/info,info kept when gap_mode=report_only,2
+detectors_v3,vendor_flags,*,,low,native,Databento flagged the record itself,1
+m2_bayes,missing_intervals,*,p_ge_099_gap_gt_max_gap,high,n/a,P(outage) >= 0.99 and longer than 60 s,3
+m2_bayes,missing_intervals,*,,medium,n/a,P(outage) >= 0.5 (the candidate threshold),2
+m2_spc,*,shewhart,,low,n/a,single-minute excursion,1
+m2_spc,*,*,episode_ge_15,medium,n/a,persistent shift (>= 15 one-minute buckets),2
+m2_spc,*,*,,low,n/a,regime change in rate or spread; context for point checks,1

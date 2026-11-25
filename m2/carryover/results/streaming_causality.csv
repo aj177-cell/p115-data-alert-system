@@ -1,0 +1,13 @@
+check,subtype,causal_in_batch,earliest_live_detection,live_version
+crossed_books,crossed/locked,yes,run start + min_duration_s (1 ms),StreamingCrossed
+extreme_prices,robust_z_*,yes (window shifted by one),the record itself,none: rolling median/MAD of prior W returns is already streaming
+extreme_prices,static_band_*,yes,the record itself,none
+timestamp_inversions,"ts_recv/ts_event inversion, negative_latency",yes,the record itself,none
+timestamp_inversions,latency_outlier,NO: whole-day median/MAD per key,the record itself,TrailingLatencyOutlier
+missing_intervals,gap,yes (rate from prior n gaps),"gap start + threshold (open-gap alarm), batch raises at gap end",StreamingGapMonitor
+stale_quotes,stale/quiet,NO: adaptive theta is a whole-day quantile of book ages,"book change + theta, once min_trades prints arrive",trailing quantile of ages (not built)
+unusual_spreads,wide,yes (rolling quantile shifted by one),the record itself,none
+unusual_spreads,zero_or_negative,yes,the record itself,none
+sequence_discontinuities,gap/regression,yes,the next record,none
+m2_bayes,bayes_outage,yes (discounted state from earlier gaps),gap end; survival form P(outage | gap > elapsed) could alarm earlier,none for gap-end candidates
+m2_spc,cusum/ewma/shewhart,per minute yes; Phase I baseline used other days of the same week,bucket close (1 min),baseline from earlier days only

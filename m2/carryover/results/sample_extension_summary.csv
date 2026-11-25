@@ -1,0 +1,6 @@
+label,symbol_days,records_m,gib,usd
+cl_expiry,6.0,9.23,0.69,1.24
+es_roll,8.0,44.96,3.35,6.03
+fomc,36.0,84.07,6.26,9.13
+holiday,28.0,32.97,2.46,3.76
+total,78.0,171.23,12.76,20.15

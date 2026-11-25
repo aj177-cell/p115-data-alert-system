@@ -1,0 +1,9 @@
+policy,symbol,ts_recv,gap_s,subtype,severity,level
+native,SPY,2025-09-15 14:32:21.329616467+00:00,5.219,gap,medium,2.0
+native,AAPL,2025-09-15 14:35:33.060304709+00:00,5.152,gap,medium,2.0
+quotes_sample,SPY,2025-09-15 14:32:21.329616467+00:00,5.219,gap,medium,2.0
+quotes_sample,AAPL,2025-09-15 14:35:33.060304709+00:00,5.152,gap,medium,2.0
+floor_default_15s,SPY,2025-09-15 14:32:21.329616467+00:00,5.219,trade_pause_below_floor,info,0.0
+floor_default_15s,AAPL,2025-09-15 14:35:33.060304709+00:00,5.152,trade_pause_below_floor,info,0.0
+floor_per_symbol,SPY,2025-09-15 14:32:21.329616467+00:00,5.219,trade_pause_below_floor,info,0.0
+floor_per_symbol,AAPL,2025-09-15 14:35:33.060304709+00:00,5.152,trade_pause_below_floor,info,0.0

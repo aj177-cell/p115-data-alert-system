@@ -1,0 +1,79 @@
+label,day,model,dataset,symbol,why,records_est,bytes_est,usd_est
+fomc,2025-12-10,cpi,XNAS.ITCH,AAPL,FOMC decision (SEP meeting); 2026-09-16 in the current pull is also one,1347028.0,107762240.0,0.12043368816375732
+fomc,2025-12-10,cpi,XNAS.ITCH,MSFT,FOMC decision (SEP meeting); 2026-09-16 in the current pull is also one,802031.0,64162480.0,0.07170715928077698
+fomc,2025-12-10,cpi,XNAS.ITCH,NVDA,FOMC decision (SEP meeting); 2026-09-16 in the current pull is also one,2856931.0,228554480.0,0.25542953610420227
+fomc,2025-12-10,cpi,XNAS.ITCH,SPY,FOMC decision (SEP meeting); 2026-09-16 in the current pull is also one,3921527.0,313722160.0,0.3506118357181549
+fomc,2025-12-10,cpi,XNAS.ITCH,QQQ,FOMC decision (SEP meeting); 2026-09-16 in the current pull is also one,5606059.0,448484720.0,0.5012207329273224
+fomc,2025-12-10,cpi,XNAS.ITCH,CRWV,FOMC decision (SEP meeting); 2026-09-16 in the current pull is also one,946155.0,75692400.0,0.08459284901618958
+fomc,2025-12-10,cpi,XNAS.ITCH,NBIS,FOMC decision (SEP meeting); 2026-09-16 in the current pull is also one,466759.0,37340720.0,0.04173150658607483
+fomc,2025-12-10,cpi,XNAS.ITCH,LWAY,FOMC decision (SEP meeting); 2026-09-16 in the current pull is also one,6720.0,537600.0,0.0006008148193359375
+fomc,2025-12-10,cpi,XNAS.ITCH,PLAB,FOMC decision (SEP meeting); 2026-09-16 in the current pull is also one,33813.0,2705040.0,0.003023117780685425
+fomc,2025-12-10,cpi,XNAS.ITCH,ADTN,FOMC decision (SEP meeting); 2026-09-16 in the current pull is also one,33697.0,2695760.0,0.003012746572494507
+fomc,2025-12-10,cpi,GLBX.MDP3,ES.c.0,FOMC decision (SEP meeting); 2026-09-16 in the current pull is also one,10361342.0,828907360.0,1.3895642459392548
+fomc,2025-12-10,cpi,GLBX.MDP3,CL.c.0,FOMC decision (SEP meeting); 2026-09-16 in the current pull is also one,1641457.0,131316560.0,0.22013653814792633
+fomc,2026-01-28,cpi,XNAS.ITCH,AAPL,FOMC decision,1347028.0,107762240.0,0.12043368816375732
+fomc,2026-01-28,cpi,XNAS.ITCH,MSFT,FOMC decision,802031.0,64162480.0,0.07170715928077698
+fomc,2026-01-28,cpi,XNAS.ITCH,NVDA,FOMC decision,2856931.0,228554480.0,0.25542953610420227
+fomc,2026-01-28,cpi,XNAS.ITCH,SPY,FOMC decision,3921527.0,313722160.0,0.3506118357181549
+fomc,2026-01-28,cpi,XNAS.ITCH,QQQ,FOMC decision,5606059.0,448484720.0,0.5012207329273224
+fomc,2026-01-28,cpi,XNAS.ITCH,CRWV,FOMC decision,946155.0,75692400.0,0.08459284901618958
+fomc,2026-01-28,cpi,XNAS.ITCH,NBIS,FOMC decision,466759.0,37340720.0,0.04173150658607483
+fomc,2026-01-28,cpi,XNAS.ITCH,LWAY,FOMC decision,6720.0,537600.0,0.0006008148193359375
+fomc,2026-01-28,cpi,XNAS.ITCH,PLAB,FOMC decision,33813.0,2705040.0,0.003023117780685425
+fomc,2026-01-28,cpi,XNAS.ITCH,ADTN,FOMC decision,33697.0,2695760.0,0.003012746572494507
+fomc,2026-01-28,cpi,GLBX.MDP3,ES.c.0,FOMC decision,10361342.0,828907360.0,1.3895642459392548
+fomc,2026-01-28,cpi,GLBX.MDP3,CL.c.0,FOMC decision,1641457.0,131316560.0,0.22013653814792633
+fomc,2026-10-28,cpi,XNAS.ITCH,AAPL,"FOMC decision, two weeks after the CPI day in the pull",1347028.0,107762240.0,0.12043368816375732
+fomc,2026-10-28,cpi,XNAS.ITCH,MSFT,"FOMC decision, two weeks after the CPI day in the pull",802031.0,64162480.0,0.07170715928077698
+fomc,2026-10-28,cpi,XNAS.ITCH,NVDA,"FOMC decision, two weeks after the CPI day in the pull",2856931.0,228554480.0,0.25542953610420227
+fomc,2026-10-28,cpi,XNAS.ITCH,SPY,"FOMC decision, two weeks after the CPI day in the pull",3921527.0,313722160.0,0.3506118357181549
+fomc,2026-10-28,cpi,XNAS.ITCH,QQQ,"FOMC decision, two weeks after the CPI day in the pull",5606059.0,448484720.0,0.5012207329273224
+fomc,2026-10-28,cpi,XNAS.ITCH,CRWV,"FOMC decision, two weeks after the CPI day in the pull",946155.0,75692400.0,0.08459284901618958
+fomc,2026-10-28,cpi,XNAS.ITCH,NBIS,"FOMC decision, two weeks after the CPI day in the pull",466759.0,37340720.0,0.04173150658607483
+fomc,2026-10-28,cpi,XNAS.ITCH,LWAY,"FOMC decision, two weeks after the CPI day in the pull",6720.0,537600.0,0.0006008148193359375
+fomc,2026-10-28,cpi,XNAS.ITCH,PLAB,"FOMC decision, two weeks after the CPI day in the pull",33813.0,2705040.0,0.003023117780685425
+fomc,2026-10-28,cpi,XNAS.ITCH,ADTN,"FOMC decision, two weeks after the CPI day in the pull",33697.0,2695760.0,0.003012746572494507
+fomc,2026-10-28,cpi,GLBX.MDP3,ES.c.0,"FOMC decision, two weeks after the CPI day in the pull",10361342.0,828907360.0,1.3895642459392548
+fomc,2026-10-28,cpi,GLBX.MDP3,CL.c.0,"FOMC decision, two weeks after the CPI day in the pull",1641457.0,131316560.0,0.22013653814792633
+es_roll,2025-12-11,normal_week,GLBX.MDP3,ES.c.0,CME roll date ESZ5 -> ESH6: liquidity moves to c.1,6423113.8,513849104.0,0.8614066869020462
+es_roll,2025-12-11,normal_week,GLBX.MDP3,ES.c.1,CME roll date ESZ5 -> ESH6: liquidity moves to c.1,3211556.9,256924552.0,0.4307033434510231
+es_roll,2025-12-19,normal_week,GLBX.MDP3,ES.c.0,ESZ5 expiry (c.0 still ESZ5),6423113.8,513849104.0,0.8614066869020462
+es_roll,2025-12-22,normal_week,GLBX.MDP3,ES.c.0,first session with c.0 = ESH6 (instrument_id changes),6423113.8,513849104.0,0.8614066869020462
+es_roll,2026-09-10,normal_week,GLBX.MDP3,ES.c.0,CME roll date ESU6 -> ESZ6,6423113.8,513849104.0,0.8614066869020462
+es_roll,2026-09-10,normal_week,GLBX.MDP3,ES.c.1,CME roll date ESU6 -> ESZ6,3211556.9,256924552.0,0.4307033434510231
+es_roll,2026-09-18,normal_week,GLBX.MDP3,ES.c.0,ESU6 expiry,6423113.8,513849104.0,0.8614066869020462
+es_roll,2026-09-21,normal_week,GLBX.MDP3,ES.c.0,first session with c.0 = ESZ6,6423113.8,513849104.0,0.8614066869020462
+cl_expiry,2026-09-22,normal_week,GLBX.MDP3,CL.c.0,CLV6 last trade,1845673.0,147653840.0,0.24752403795719147
+cl_expiry,2026-09-22,normal_week,GLBX.MDP3,CL.c.1,CLV6 last trade,922836.5,73826920.0,0.12376201897859573
+cl_expiry,2026-09-23,normal_week,GLBX.MDP3,CL.c.0,first session with c.0 = CLX6,1845673.0,147653840.0,0.24752403795719147
+cl_expiry,2026-10-20,normal_week,GLBX.MDP3,CL.c.0,CLX6 last trade (c.0 in the current pull),1845673.0,147653840.0,0.24752403795719147
+cl_expiry,2026-10-20,normal_week,GLBX.MDP3,CL.c.1,CLX6 last trade (c.0 in the current pull),922836.5,73826920.0,0.12376201897859573
+cl_expiry,2026-10-21,normal_week,GLBX.MDP3,CL.c.0,first session with c.0 = CLZ6,1845673.0,147653840.0,0.24752403795719147
+holiday,2025-12-24,half_day,XNAS.ITCH,AAPL,NYSE and CME early close,360029.0,28802320.0,0.03218910098075867
+holiday,2025-12-24,half_day,XNAS.ITCH,MSFT,NYSE and CME early close,292553.0,23404240.0,0.02615627646446228
+holiday,2025-12-24,half_day,XNAS.ITCH,NVDA,NYSE and CME early close,1958163.0,156653040.0,0.17507341504096985
+holiday,2025-12-24,half_day,XNAS.ITCH,SPY,NYSE and CME early close,1605069.0,128405520.0,0.14350435137748718
+holiday,2025-12-24,half_day,XNAS.ITCH,QQQ,NYSE and CME early close,1225502.0,98040160.0,0.10956841707229614
+holiday,2025-12-24,half_day,XNAS.ITCH,CRWV,NYSE and CME early close,176676.0,14134080.0,0.01579606533050537
+holiday,2025-12-24,half_day,XNAS.ITCH,NBIS,NYSE and CME early close,99085.0,7926800.0,0.00885888934135437
+holiday,2025-12-24,half_day,XNAS.ITCH,LWAY,NYSE and CME early close,1523.0,121840.0,0.00013616681098937988
+holiday,2025-12-24,half_day,XNAS.ITCH,PLAB,NYSE and CME early close,9307.0,744560.0,0.0008321106433868408
+holiday,2025-12-24,half_day,XNAS.ITCH,ADTN,NYSE and CME early close,10101.0,808080.0,0.0009030997753143311
+holiday,2025-12-24,half_day,GLBX.MDP3,ES.c.0,NYSE and CME early close,2569245.52,205539641.6,0.3445626747608185
+holiday,2025-12-24,half_day,GLBX.MDP3,CL.c.0,NYSE and CME early close,738269.2000000001,59061536.00000001,0.0990096151828766
+holiday,2025-12-26,normal_week,XNAS.ITCH,AAPL,thin post-holiday full session,695854.8,55668384.0,0.06221426725387573
+holiday,2025-12-26,normal_week,XNAS.ITCH,MSFT,thin post-holiday full session,542854.2,43428336.0,0.04853494763374328
+holiday,2025-12-26,normal_week,XNAS.ITCH,NVDA,thin post-holiday full session,1906105.0,152488400.0,0.17041906714439392
+holiday,2025-12-26,normal_week,XNAS.ITCH,SPY,thin post-holiday full session,1913791.8,153103344.0,0.1711063206195831
+holiday,2025-12-26,normal_week,XNAS.ITCH,QQQ,thin post-holiday full session,3152958.8,252236704.0,0.28189648389816285
+holiday,2025-12-26,normal_week,XNAS.ITCH,CRWV,thin post-holiday full session,345118.4,27609472.0,0.030855989456176756
+holiday,2025-12-26,normal_week,XNAS.ITCH,NBIS,thin post-holiday full session,428737.0,34298960.0,0.038332074880599976
+holiday,2025-12-26,normal_week,XNAS.ITCH,LWAY,thin post-holiday full session,5244.0,419520.0,0.00046885013580322266
+holiday,2025-12-26,normal_week,XNAS.ITCH,PLAB,thin post-holiday full session,20067.8,1605424.0,0.0017942011356353758
+holiday,2025-12-26,normal_week,XNAS.ITCH,ADTN,thin post-holiday full session,31159.8,2492784.0,0.002785903215408325
+holiday,2025-12-26,normal_week,GLBX.MDP3,ES.c.0,thin post-holiday full session,6423113.8,513849104.0,0.8614066869020462
+holiday,2025-12-26,normal_week,GLBX.MDP3,CL.c.0,thin post-holiday full session,1845673.0,147653840.0,0.24752403795719147
+holiday,2026-01-19,half_day,GLBX.MDP3,ES.c.0,"NYSE closed (MLK), CME holiday session",2569245.52,205539641.6,0.3445626747608185
+holiday,2026-01-19,half_day,GLBX.MDP3,CL.c.0,"NYSE closed (MLK), CME holiday session",738269.2000000001,59061536.00000001,0.0990096151828766
+holiday,2026-07-03,half_day,GLBX.MDP3,ES.c.0,"NYSE closed (Independence Day obs.), CME early close",2569245.52,205539641.6,0.3445626747608185
+holiday,2026-07-03,half_day,GLBX.MDP3,CL.c.0,"NYSE closed (Independence Day obs.), CME early close",738269.2000000001,59061536.00000001,0.0990096151828766

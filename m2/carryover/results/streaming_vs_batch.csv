@@ -1,0 +1,9 @@
+data,check,batch,live,identical,median_live_delay_s,note
+stress_faulted,missing_intervals,5,5,True,,
+stress_faulted,crossed_books/crossed,5,5,True,0.093474303,
+stress_faulted,timestamp_inversions/latency_outlier,2,2,True,,trailing window 5000; timestamp labels with a live hit 2/5 (the other labels are inversions)
+real AAPL 2026-10-08,timestamp_inversions/latency_outlier,0,0,True,,batch episodes with a trailing-window hit within 1 s: 0/0; records=622007
+real AAPL 2026-10-08,missing_intervals,8,8,True,,
+real LWAY 2026-10-14,missing_intervals,118,118,True,,
+real CL.c.0 2026-10-08,missing_intervals,627,627,True,,
+real 95 symbol-days (stored v3),missing_intervals open-gap alarm,14129,14129,True,,"live alarm earlier than batch by median 2.40 s, p90 16.53 s, max 763.5 s"

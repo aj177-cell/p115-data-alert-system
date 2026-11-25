@@ -1,0 +1,4 @@
+check,column,stored,regenerated
+extreme_prices,flags,15,12
+extreme_prices,collateral_flags,5,2
+extreme_prices,clean_stream_flags,1,0
