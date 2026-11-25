@@ -20,6 +20,7 @@ Two check families share the pipeline output and stay separate where they overla
 | Threshold notes and check definitions | `docs/quality_checks.md`, `alert_system/quality/config.py` | Aryan Jhaveri |
 | 95 symbol-day Level-1 pilot summaries | `docs/results/` | Aryan Jhaveri |
 | Literature mapping for the four papers in the research notes | `docs/literature_appendix.md` | Aryan Jhaveri |
+| Distribution fits, Bayesian gaps, control charts, representative sample, carryover | `m2/` | Aryan Jhaveri |
 
 The streaming engine walks normalized events one at a time and can suppress repeat alerts. The batch checks are vectorized over the pipeline Parquet (`ts_recv` index, `bid_px_00`, `flags`, `sequence`). That is the table `download_and_show` writes and the table the loader reads. The loader's event dicts are a different shape (quote `price` becomes a midpoint, and `flags` is dropped), so the batch checks are not pointed at the event list.
 
@@ -75,6 +76,20 @@ Treat every count as a candidate. Per-record flag tables are large and are not i
 
 How the four papers in the research notes relate to these checks: [docs/literature_appendix.md](docs/literature_appendix.md).
 
+### Milestone 2
+
+Five studies sit beside the two check families. They call the unchanged v3 package in `p115_detectors/` through `integration.combine.load_v3`. They do not edit `alert_system/quality/` thresholds or `databento_pipeline.py`. A row they flag is still a candidate.
+
+| Study | Code | Notes |
+| --- | --- | --- |
+| Gap, spread, and return fits | `m2/distributions.py`, `m2/run_distribution_fits.py` | [docs/m2_distribution_fits.md](docs/m2_distribution_fits.md) |
+| Bayesian missing-interval check | `m2/bayes/` | [docs/m2_bayesian_gaps.md](docs/m2_bayesian_gaps.md) |
+| Shewhart, CUSUM, and EWMA charts | `m2/spc/` | [docs/m2_control_charts.md](docs/m2_control_charts.md) |
+| Representative sample and holiday calendar | `m2/sample/`, including `holidays.py` | [docs/m2_representative_sample.md](docs/m2_representative_sample.md) |
+| Carryover decisions (severity, crosses, streaming gaps, trade pauses) | `m2/carryover/` | [docs/m2_carryover_decisions.md](docs/m2_carryover_decisions.md) |
+
+Derived csv, parquet, and png outputs are under `m2/results/` and `m2/sample/results/`. `python run_combined.py --stress` scores both detector families on the labeled synthetic stream.
+
 ## Included data
 
 | Sample | Dataset and schema | Interval (New York time) | Events |
@@ -90,6 +105,7 @@ Python 3.11 or later:
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
+python -m pip install -r requirements-m2.txt   # SciPy, for the Milestone 2 studies
 python run_checks.py                       # streaming checks, AAPL quotes
 python run_checks.py --sample trades       # streaming checks, AAPL + SPY trades
 python run_checks.py --mode both           # streaming checks and the seven batch checks on the quotes sample
@@ -105,9 +121,11 @@ No API key is needed for the bundled samples. Tests:
 ```bash
 python -m unittest discover -s tests -v
 python -m pytest alert_system/quality/tests -q
+python -m pytest p115_detectors/detectors -q
+python -m unittest discover -s integration/tests -t .
 ```
 
-The pytest file is the batch-detector suite (34 tests) on synthetic streams. The unittest suite covers the pipeline, the loader, the streaming rules, and a combined run on the AAPL/SPY samples. Neither suite downloads data.
+The quality pytest file is the batch-detector suite (34 tests) on synthetic streams. The same 34 tests also live, unchanged, under `p115_detectors/detectors/tests`, which is the copy `load_v3` imports. The unittest suite in `tests/` covers the pipeline, the loader, the streaming rules, and a combined run on the AAPL/SPY samples. `integration/tests` covers the side-by-side adapter and the Milestone 2 studies. None of these suites downloads data.
 
 ### Initial result on the bundled samples
 
@@ -133,5 +151,5 @@ After `download_and_show` writes a run directory, point `--mode batch --path` at
 2. **Event replay** on a simulated clock, and **stress testing** that injects known anomalies into the streaming path end to end.
 3. **One alert document** for both families. Streaming alerts carry an explanation, possible causes, and next checks. Batch output is a flag table. They are printed together and not yet stored as one schema.
 4. **Sequence semantics** on XNAS and GLBX (feed-wide versus per instrument) are still a question for the sponsor. The equities preset skips gaps for that reason.
-5. **Holiday calendar.** The session clock has the regular 09:30–16:00 America/New_York window and the 2025-11-28 13:00 early close. It does not yet use a full exchange calendar.
+5. **Holiday calendar on the live presets.** `alert_system/quality` still has the regular 09:30–16:00 America/New_York window and the 2025-11-28 13:00 early close. Milestone 2 adds an opt-in copy in `m2/sample/holidays.py` (NYSE closures and early closes, CME Globex halts) for the representative sample, the Bayesian check, and the control-chart buckets. That copy is not wired into `equities_config()` or `cme_futures_config()`.
 6. **Unusual trade size** and **queue-imbalance prediction** are not checks. The literature appendix says queue imbalance predicts the next mid move and is out of scope for data-quality detection.

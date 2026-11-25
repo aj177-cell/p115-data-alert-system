@@ -1,4 +1,6 @@
 __pycache__/
 *.py[cod]
 .venv/
+.env
+.pytest_cache/
 alert_system/quality/results/

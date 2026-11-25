@@ -1,0 +1,4 @@
+# Milestone 2 distribution-fit extras, on top of the combined pins.
+# Detector and Milestone 1 requirements are unchanged.
+-r requirements-combined.txt
+scipy==1.18.1
