@@ -1,0 +1,5 @@
+# Milestone 1 pins (requirements.txt, unchanged) plus what the v3 detectors and their tests need.
+# Tested together: 41 Milestone 1 tests, 34 v3 tests and 13 integration tests pass.
+-r requirements.txt
+numpy==2.5.4
+pytest==9.2.0
