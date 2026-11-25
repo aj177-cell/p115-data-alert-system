@@ -1,12 +1,17 @@
-d990d1274b939579d75c3d32d476dd0cfde97cc49e412dfee83ee0797bacb99b  README.md
+# Baseline is cursor/merge-quality-checks-432a (merged PR #1), not the original
+# pre-merge milestone-1 commit. This branch starts from that merge. README.md is
+# the merged README plus the Milestone 2 section added on milestone-2; every
+# other path below is the byte contents of that merge base. databento_pipeline.py
+# is unchanged from both trees. The v3 code manifest is a separate check.
+3dd7cc4c22c99a67b7a4ec6a040c9982320111ab1ce8a9235523c617b95d8775  README.md
 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  alert_system/__init__.py
 cff3a675c9912338a77c67d1bd9330159ef25f90e9ef33abc6319476f36c7f8a  alert_system/config.py
 2ba516c53a1e29dbc86183b71cdb63f1742ba2ddd60cdcfbe5599efa5c9255c6  alert_system/data.py
-a8d9f2e3ca3298563b3bc4226de0772efc69606a610c9b6bc1e73f63f180f19c  alert_system/detectors.py
+328ce798a18f3a1f943d327e90e27e691ce5b3eb4cd6989d82f23b48393956e3  alert_system/detectors.py
 83c39d7a1f089d810fe20141bce0bde278f38064aacc938f02e6aea0e9b35325  databento_pipeline.py
-189054a25e3aea264880d7ee11e343b86d39d245f540ae77ec50defd359bf660  docs/research.md
-a390b5c96b6254b4ae40213ec8316b992ff595525c0d48b4d5b3f522bbb5038c  requirements.txt
-8d1d1e74d635d7376d23128d7edfdd475e01f48ace053cb393018b07c18859d1  run_checks.py
+cfbcae9d16122cc2d91424f41d99ca948edf3f75eb406e4a7b203ddc2386b426  docs/research.md
+8ac3b53ae9bd97edc26ee534d5d3d7870a6913cc03774b99776aba1c101b2050  requirements.txt
+dbce1b90e423f0114dbb5152ad7770c9ea9a2311e1c868db519f7e8d2aded8e7  run_checks.py
 e5e230634f633ff38d921ac3543c5388c5cbc770fbdd1d412f61f00af9203753  sample_data/quotes_provenance.json
 7c44ba1249c8cbbc9672bbf097ad9978075183a5a8b3aad607397d9c7489d20c  sample_data/trades_provenance.json
 0415db934985c7af764839b52a4210252ba4b680319215166eda9b86fd0eb06c  sample_data/xnas_itch_aapl_2025-09-15_quotes.parquet

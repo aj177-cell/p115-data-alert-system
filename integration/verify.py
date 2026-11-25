@@ -4,7 +4,7 @@ python -m integration.verify              # SHA-256 of every Milestone 1 and v3 
 python -m integration.verify --run-tests  # also run the three test suites
 
 Manifests (integration/manifests/):
-  milestone1.sha256          every file of the milestone-1 commit (16 files)
+  milestone1.sha256          16 files at the merged PR #1 base (see the comment in that file)
   detectors_v3_code.sha256   v3 code, tests and READMEs, as shipped in p115_detectors_v3_final.zip
   detectors_v3_results.sha256  v3 result files; these change legitimately if the v3 scripts are re-run
 """
@@ -38,7 +38,12 @@ def sha256(path: Path) -> str:
 def check(manifest: str, root: Path = ROOT) -> tuple[int, list[str], list[str]]:
     """Return (files listed, changed files, missing files) for one manifest."""
     changed, missing = [], []
-    lines = [line.split("  ", 1) for line in (MANIFESTS / manifest).read_text().splitlines() if line.strip()]
+    lines = []
+    for line in (MANIFESTS / manifest).read_text().splitlines():
+        # '#' lines are comments (the milestone-1 baseline note). They are not files.
+        if not line.strip() or line.lstrip().startswith("#"):
+            continue
+        lines.append(line.split("  ", 1))
     for expected, relative in lines:
         path = root / relative
         if not path.is_file():

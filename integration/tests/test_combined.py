@@ -14,6 +14,8 @@ from integration import combine, stress, verify
 
 class UntouchedFilesTests(unittest.TestCase):
     def test_milestone1_files_are_byte_identical(self):
+        # See the comment in integration/manifests/milestone1.sha256: the baseline
+        # is cursor/merge-quality-checks-432a, not the pre-merge milestone-1 commit.
         total, changed, missing = verify.check("milestone1.sha256")
         self.assertEqual(total, 16)
         self.assertEqual((changed, missing), ([], []))
