@@ -1,0 +1,4 @@
+stratum,symbol_days,alerts,crossed_no_f_last,alerts_level_gt0_after_demote
+fomc,30,0.0,0.0,0.0
+holiday,20,0.0,0.0,0.0
+normal_week,50,0.0,0.0,0.0

@@ -1,0 +1,1 @@
+{"source": "sample", "venue": "XNAS", "symbol": "LWAY", "day": "2026-01-28", "records": 2399, "prior_rate": 0.13365612137341, "holiday": null, "default:poisson": 105, "default:bayes": 40, "default:both": 31, "default:bayes_gt60": 31, "default:max_gap_s": 457.58020789, "secs": 0.2}

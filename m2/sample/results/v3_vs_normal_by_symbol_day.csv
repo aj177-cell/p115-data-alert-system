@@ -1,0 +1,596 @@
+stratum,venue_group,symbol,day,check,count,normal_mean
+fomc,GLBX c.0,CL.c.0,2025-12-10,crossed_books,0,0.0
+fomc,GLBX c.0,CL.c.0,2025-12-10,extreme_prices,0,4.6
+fomc,GLBX c.0,CL.c.0,2025-12-10,timestamp_inversions,156,196.4
+fomc,GLBX c.0,CL.c.0,2025-12-10,missing_intervals,1330,838.0
+fomc,GLBX c.0,CL.c.0,2025-12-10,stale_quotes,0,0.2
+fomc,GLBX c.0,CL.c.0,2025-12-10,unusual_spreads,0,0.2
+fomc,GLBX c.0,CL.c.0,2025-12-10,sequence_discontinuities,1,0.4
+holiday,GLBX c.0,CL.c.0,2025-12-24,crossed_books,0,0.0
+holiday,GLBX c.0,CL.c.0,2025-12-24,extreme_prices,0,4.6
+holiday,GLBX c.0,CL.c.0,2025-12-24,timestamp_inversions,49,196.4
+holiday,GLBX c.0,CL.c.0,2025-12-24,missing_intervals,2036,838.0
+holiday,GLBX c.0,CL.c.0,2025-12-24,stale_quotes,0,0.2
+holiday,GLBX c.0,CL.c.0,2025-12-24,unusual_spreads,0,0.2
+holiday,GLBX c.0,CL.c.0,2025-12-24,sequence_discontinuities,0,0.4
+holiday,GLBX c.0,CL.c.0,2025-12-26,crossed_books,0,0.0
+holiday,GLBX c.0,CL.c.0,2025-12-26,extreme_prices,0,4.6
+holiday,GLBX c.0,CL.c.0,2025-12-26,timestamp_inversions,70,196.4
+holiday,GLBX c.0,CL.c.0,2025-12-26,missing_intervals,1738,838.0
+holiday,GLBX c.0,CL.c.0,2025-12-26,stale_quotes,0,0.2
+holiday,GLBX c.0,CL.c.0,2025-12-26,unusual_spreads,0,0.2
+holiday,GLBX c.0,CL.c.0,2025-12-26,sequence_discontinuities,1,0.4
+holiday,GLBX c.0,CL.c.0,2026-01-19,crossed_books,0,0.0
+holiday,GLBX c.0,CL.c.0,2026-01-19,extreme_prices,26,4.6
+holiday,GLBX c.0,CL.c.0,2026-01-19,timestamp_inversions,25,196.4
+holiday,GLBX c.0,CL.c.0,2026-01-19,missing_intervals,297,838.0
+holiday,GLBX c.0,CL.c.0,2026-01-19,stale_quotes,20,0.2
+holiday,GLBX c.0,CL.c.0,2026-01-19,unusual_spreads,1,0.2
+holiday,GLBX c.0,CL.c.0,2026-01-19,sequence_discontinuities,1,0.4
+fomc,GLBX c.0,CL.c.0,2026-01-28,crossed_books,0,0.0
+fomc,GLBX c.0,CL.c.0,2026-01-28,extreme_prices,0,4.6
+fomc,GLBX c.0,CL.c.0,2026-01-28,timestamp_inversions,383,196.4
+fomc,GLBX c.0,CL.c.0,2026-01-28,missing_intervals,1118,838.0
+fomc,GLBX c.0,CL.c.0,2026-01-28,stale_quotes,1,0.2
+fomc,GLBX c.0,CL.c.0,2026-01-28,unusual_spreads,0,0.2
+fomc,GLBX c.0,CL.c.0,2026-01-28,sequence_discontinuities,0,0.4
+holiday,GLBX c.0,CL.c.0,2026-07-03,crossed_books,0,0.0
+holiday,GLBX c.0,CL.c.0,2026-07-03,extreme_prices,0,4.6
+holiday,GLBX c.0,CL.c.0,2026-07-03,timestamp_inversions,38,196.4
+holiday,GLBX c.0,CL.c.0,2026-07-03,missing_intervals,1471,838.0
+holiday,GLBX c.0,CL.c.0,2026-07-03,stale_quotes,0,0.2
+holiday,GLBX c.0,CL.c.0,2026-07-03,unusual_spreads,0,0.2
+holiday,GLBX c.0,CL.c.0,2026-07-03,sequence_discontinuities,0,0.4
+fomc,GLBX c.0,CL.c.0,2026-09-16,crossed_books,0,0.0
+fomc,GLBX c.0,CL.c.0,2026-09-16,extreme_prices,19,4.6
+fomc,GLBX c.0,CL.c.0,2026-09-16,timestamp_inversions,242,196.4
+fomc,GLBX c.0,CL.c.0,2026-09-16,missing_intervals,585,838.0
+fomc,GLBX c.0,CL.c.0,2026-09-16,stale_quotes,0,0.2
+fomc,GLBX c.0,CL.c.0,2026-09-16,unusual_spreads,2,0.2
+fomc,GLBX c.0,CL.c.0,2026-09-16,sequence_discontinuities,0,0.4
+cl_expiry,GLBX c.0,CL.c.0,2026-09-22,crossed_books,0,0.0
+cl_expiry,GLBX c.0,CL.c.0,2026-09-22,extreme_prices,601,4.6
+cl_expiry,GLBX c.0,CL.c.0,2026-09-22,timestamp_inversions,75,196.4
+cl_expiry,GLBX c.0,CL.c.0,2026-09-22,missing_intervals,292,838.0
+cl_expiry,GLBX c.0,CL.c.0,2026-09-22,stale_quotes,5,0.2
+cl_expiry,GLBX c.0,CL.c.0,2026-09-22,unusual_spreads,38,0.2
+cl_expiry,GLBX c.0,CL.c.0,2026-09-22,sequence_discontinuities,1,0.4
+cl_expiry,GLBX c.0,CL.c.0,2026-09-23,crossed_books,0,0.0
+cl_expiry,GLBX c.0,CL.c.0,2026-09-23,extreme_prices,3,4.6
+cl_expiry,GLBX c.0,CL.c.0,2026-09-23,timestamp_inversions,354,196.4
+cl_expiry,GLBX c.0,CL.c.0,2026-09-23,missing_intervals,323,838.0
+cl_expiry,GLBX c.0,CL.c.0,2026-09-23,stale_quotes,0,0.2
+cl_expiry,GLBX c.0,CL.c.0,2026-09-23,unusual_spreads,0,0.2
+cl_expiry,GLBX c.0,CL.c.0,2026-09-23,sequence_discontinuities,0,0.4
+cl_expiry,GLBX c.0,CL.c.0,2026-10-20,crossed_books,0,0.0
+cl_expiry,GLBX c.0,CL.c.0,2026-10-20,extreme_prices,732,4.6
+cl_expiry,GLBX c.0,CL.c.0,2026-10-20,timestamp_inversions,40,196.4
+cl_expiry,GLBX c.0,CL.c.0,2026-10-20,missing_intervals,266,838.0
+cl_expiry,GLBX c.0,CL.c.0,2026-10-20,stale_quotes,11,0.2
+cl_expiry,GLBX c.0,CL.c.0,2026-10-20,unusual_spreads,20,0.2
+cl_expiry,GLBX c.0,CL.c.0,2026-10-20,sequence_discontinuities,1,0.4
+cl_expiry,GLBX c.0,CL.c.0,2026-10-21,crossed_books,0,0.0
+cl_expiry,GLBX c.0,CL.c.0,2026-10-21,extreme_prices,4,4.6
+cl_expiry,GLBX c.0,CL.c.0,2026-10-21,timestamp_inversions,240,196.4
+cl_expiry,GLBX c.0,CL.c.0,2026-10-21,missing_intervals,497,838.0
+cl_expiry,GLBX c.0,CL.c.0,2026-10-21,stale_quotes,0,0.2
+cl_expiry,GLBX c.0,CL.c.0,2026-10-21,unusual_spreads,1,0.2
+cl_expiry,GLBX c.0,CL.c.0,2026-10-21,sequence_discontinuities,0,0.4
+fomc,GLBX c.0,CL.c.0,2026-10-28,crossed_books,0,0.0
+fomc,GLBX c.0,CL.c.0,2026-10-28,extreme_prices,3,4.6
+fomc,GLBX c.0,CL.c.0,2026-10-28,timestamp_inversions,233,196.4
+fomc,GLBX c.0,CL.c.0,2026-10-28,missing_intervals,837,838.0
+fomc,GLBX c.0,CL.c.0,2026-10-28,stale_quotes,1,0.2
+fomc,GLBX c.0,CL.c.0,2026-10-28,unusual_spreads,0,0.2
+fomc,GLBX c.0,CL.c.0,2026-10-28,sequence_discontinuities,0,0.4
+cl_expiry,GLBX c.1,CL.c.1,2026-09-22,crossed_books,0,0.0
+cl_expiry,GLBX c.1,CL.c.1,2026-09-22,extreme_prices,3,4.6
+cl_expiry,GLBX c.1,CL.c.1,2026-09-22,timestamp_inversions,420,196.4
+cl_expiry,GLBX c.1,CL.c.1,2026-09-22,missing_intervals,681,838.0
+cl_expiry,GLBX c.1,CL.c.1,2026-09-22,stale_quotes,0,0.2
+cl_expiry,GLBX c.1,CL.c.1,2026-09-22,unusual_spreads,0,0.2
+cl_expiry,GLBX c.1,CL.c.1,2026-09-22,sequence_discontinuities,0,0.4
+normal_week_c1,GLBX c.1,CL.c.1,2026-10-08,crossed_books,0,0.0
+normal_week_c1,GLBX c.1,CL.c.1,2026-10-08,extreme_prices,164,4.6
+normal_week_c1,GLBX c.1,CL.c.1,2026-10-08,timestamp_inversions,178,196.4
+normal_week_c1,GLBX c.1,CL.c.1,2026-10-08,missing_intervals,730,838.0
+normal_week_c1,GLBX c.1,CL.c.1,2026-10-08,stale_quotes,0,0.2
+normal_week_c1,GLBX c.1,CL.c.1,2026-10-08,unusual_spreads,2,0.2
+normal_week_c1,GLBX c.1,CL.c.1,2026-10-08,sequence_discontinuities,0,0.4
+cl_expiry,GLBX c.1,CL.c.1,2026-10-20,crossed_books,0,0.0
+cl_expiry,GLBX c.1,CL.c.1,2026-10-20,extreme_prices,2,4.6
+cl_expiry,GLBX c.1,CL.c.1,2026-10-20,timestamp_inversions,377,196.4
+cl_expiry,GLBX c.1,CL.c.1,2026-10-20,missing_intervals,792,838.0
+cl_expiry,GLBX c.1,CL.c.1,2026-10-20,stale_quotes,0,0.2
+cl_expiry,GLBX c.1,CL.c.1,2026-10-20,unusual_spreads,0,0.2
+cl_expiry,GLBX c.1,CL.c.1,2026-10-20,sequence_discontinuities,0,0.4
+fomc,GLBX c.0,ES.c.0,2025-12-10,crossed_books,0,0.0
+fomc,GLBX c.0,ES.c.0,2025-12-10,extreme_prices,0,0.0
+fomc,GLBX c.0,ES.c.0,2025-12-10,timestamp_inversions,13,10.0
+fomc,GLBX c.0,ES.c.0,2025-12-10,missing_intervals,378,122.0
+fomc,GLBX c.0,ES.c.0,2025-12-10,stale_quotes,0,0.0
+fomc,GLBX c.0,ES.c.0,2025-12-10,unusual_spreads,1,0.0
+fomc,GLBX c.0,ES.c.0,2025-12-10,sequence_discontinuities,1,0.6
+es_roll,GLBX c.0,ES.c.0,2025-12-11,crossed_books,0,0.0
+es_roll,GLBX c.0,ES.c.0,2025-12-11,extreme_prices,0,0.0
+es_roll,GLBX c.0,ES.c.0,2025-12-11,timestamp_inversions,16,10.0
+es_roll,GLBX c.0,ES.c.0,2025-12-11,missing_intervals,55,122.0
+es_roll,GLBX c.0,ES.c.0,2025-12-11,stale_quotes,0,0.0
+es_roll,GLBX c.0,ES.c.0,2025-12-11,unusual_spreads,0,0.0
+es_roll,GLBX c.0,ES.c.0,2025-12-11,sequence_discontinuities,0,0.6
+es_roll,GLBX c.0,ES.c.0,2025-12-19,crossed_books,0,0.0
+es_roll,GLBX c.0,ES.c.0,2025-12-19,extreme_prices,0,0.0
+es_roll,GLBX c.0,ES.c.0,2025-12-19,timestamp_inversions,4,10.0
+es_roll,GLBX c.0,ES.c.0,2025-12-19,missing_intervals,480,122.0
+es_roll,GLBX c.0,ES.c.0,2025-12-19,stale_quotes,0,0.0
+es_roll,GLBX c.0,ES.c.0,2025-12-19,unusual_spreads,1,0.0
+es_roll,GLBX c.0,ES.c.0,2025-12-19,sequence_discontinuities,0,0.6
+es_roll,GLBX c.0,ES.c.0,2025-12-22,crossed_books,0,0.0
+es_roll,GLBX c.0,ES.c.0,2025-12-22,extreme_prices,0,0.0
+es_roll,GLBX c.0,ES.c.0,2025-12-22,timestamp_inversions,11,10.0
+es_roll,GLBX c.0,ES.c.0,2025-12-22,missing_intervals,547,122.0
+es_roll,GLBX c.0,ES.c.0,2025-12-22,stale_quotes,0,0.0
+es_roll,GLBX c.0,ES.c.0,2025-12-22,unusual_spreads,0,0.0
+es_roll,GLBX c.0,ES.c.0,2025-12-22,sequence_discontinuities,0,0.6
+holiday,GLBX c.0,ES.c.0,2025-12-24,crossed_books,0,0.0
+holiday,GLBX c.0,ES.c.0,2025-12-24,extreme_prices,0,0.0
+holiday,GLBX c.0,ES.c.0,2025-12-24,timestamp_inversions,5,10.0
+holiday,GLBX c.0,ES.c.0,2025-12-24,missing_intervals,1810,122.0
+holiday,GLBX c.0,ES.c.0,2025-12-24,stale_quotes,0,0.0
+holiday,GLBX c.0,ES.c.0,2025-12-24,unusual_spreads,0,0.0
+holiday,GLBX c.0,ES.c.0,2025-12-24,sequence_discontinuities,1,0.6
+holiday,GLBX c.0,ES.c.0,2025-12-26,crossed_books,0,0.0
+holiday,GLBX c.0,ES.c.0,2025-12-26,extreme_prices,0,0.0
+holiday,GLBX c.0,ES.c.0,2025-12-26,timestamp_inversions,6,10.0
+holiday,GLBX c.0,ES.c.0,2025-12-26,missing_intervals,1948,122.0
+holiday,GLBX c.0,ES.c.0,2025-12-26,stale_quotes,0,0.0
+holiday,GLBX c.0,ES.c.0,2025-12-26,unusual_spreads,0,0.0
+holiday,GLBX c.0,ES.c.0,2025-12-26,sequence_discontinuities,0,0.6
+holiday,GLBX c.0,ES.c.0,2026-01-19,crossed_books,0,0.0
+holiday,GLBX c.0,ES.c.0,2026-01-19,extreme_prices,0,0.0
+holiday,GLBX c.0,ES.c.0,2026-01-19,timestamp_inversions,5,10.0
+holiday,GLBX c.0,ES.c.0,2026-01-19,missing_intervals,163,122.0
+holiday,GLBX c.0,ES.c.0,2026-01-19,stale_quotes,0,0.0
+holiday,GLBX c.0,ES.c.0,2026-01-19,unusual_spreads,7,0.0
+holiday,GLBX c.0,ES.c.0,2026-01-19,sequence_discontinuities,1,0.6
+fomc,GLBX c.0,ES.c.0,2026-01-28,crossed_books,0,0.0
+fomc,GLBX c.0,ES.c.0,2026-01-28,extreme_prices,0,0.0
+fomc,GLBX c.0,ES.c.0,2026-01-28,timestamp_inversions,13,10.0
+fomc,GLBX c.0,ES.c.0,2026-01-28,missing_intervals,145,122.0
+fomc,GLBX c.0,ES.c.0,2026-01-28,stale_quotes,0,0.0
+fomc,GLBX c.0,ES.c.0,2026-01-28,unusual_spreads,0,0.0
+fomc,GLBX c.0,ES.c.0,2026-01-28,sequence_discontinuities,0,0.6
+holiday,GLBX c.0,ES.c.0,2026-07-03,crossed_books,0,0.0
+holiday,GLBX c.0,ES.c.0,2026-07-03,extreme_prices,0,0.0
+holiday,GLBX c.0,ES.c.0,2026-07-03,timestamp_inversions,3,10.0
+holiday,GLBX c.0,ES.c.0,2026-07-03,missing_intervals,178,122.0
+holiday,GLBX c.0,ES.c.0,2026-07-03,stale_quotes,0,0.0
+holiday,GLBX c.0,ES.c.0,2026-07-03,unusual_spreads,0,0.0
+holiday,GLBX c.0,ES.c.0,2026-07-03,sequence_discontinuities,0,0.6
+es_roll,GLBX c.0,ES.c.0,2026-09-10,crossed_books,0,0.0
+es_roll,GLBX c.0,ES.c.0,2026-09-10,extreme_prices,0,0.0
+es_roll,GLBX c.0,ES.c.0,2026-09-10,timestamp_inversions,10,10.0
+es_roll,GLBX c.0,ES.c.0,2026-09-10,missing_intervals,206,122.0
+es_roll,GLBX c.0,ES.c.0,2026-09-10,stale_quotes,0,0.0
+es_roll,GLBX c.0,ES.c.0,2026-09-10,unusual_spreads,0,0.0
+es_roll,GLBX c.0,ES.c.0,2026-09-10,sequence_discontinuities,0,0.6
+es_roll,GLBX c.0,ES.c.0,2026-09-16,crossed_books,0,0.0
+es_roll,GLBX c.0,ES.c.0,2026-09-16,extreme_prices,0,0.0
+es_roll,GLBX c.0,ES.c.0,2026-09-16,timestamp_inversions,13,10.0
+es_roll,GLBX c.0,ES.c.0,2026-09-16,missing_intervals,213,122.0
+es_roll,GLBX c.0,ES.c.0,2026-09-16,stale_quotes,0,0.0
+es_roll,GLBX c.0,ES.c.0,2026-09-16,unusual_spreads,3,0.0
+es_roll,GLBX c.0,ES.c.0,2026-09-16,sequence_discontinuities,0,0.6
+es_roll,GLBX c.0,ES.c.0,2026-09-18,crossed_books,0,0.0
+es_roll,GLBX c.0,ES.c.0,2026-09-18,extreme_prices,0,0.0
+es_roll,GLBX c.0,ES.c.0,2026-09-18,timestamp_inversions,3,10.0
+es_roll,GLBX c.0,ES.c.0,2026-09-18,missing_intervals,850,122.0
+es_roll,GLBX c.0,ES.c.0,2026-09-18,stale_quotes,0,0.0
+es_roll,GLBX c.0,ES.c.0,2026-09-18,unusual_spreads,1,0.0
+es_roll,GLBX c.0,ES.c.0,2026-09-18,sequence_discontinuities,1,0.6
+es_roll,GLBX c.0,ES.c.0,2026-09-21,crossed_books,0,0.0
+es_roll,GLBX c.0,ES.c.0,2026-09-21,extreme_prices,0,0.0
+es_roll,GLBX c.0,ES.c.0,2026-09-21,timestamp_inversions,9,10.0
+es_roll,GLBX c.0,ES.c.0,2026-09-21,missing_intervals,107,122.0
+es_roll,GLBX c.0,ES.c.0,2026-09-21,stale_quotes,0,0.0
+es_roll,GLBX c.0,ES.c.0,2026-09-21,unusual_spreads,0,0.0
+es_roll,GLBX c.0,ES.c.0,2026-09-21,sequence_discontinuities,0,0.6
+fomc,GLBX c.0,ES.c.0,2026-10-28,crossed_books,0,0.0
+fomc,GLBX c.0,ES.c.0,2026-10-28,extreme_prices,0,0.0
+fomc,GLBX c.0,ES.c.0,2026-10-28,timestamp_inversions,8,10.0
+fomc,GLBX c.0,ES.c.0,2026-10-28,missing_intervals,96,122.0
+fomc,GLBX c.0,ES.c.0,2026-10-28,stale_quotes,0,0.0
+fomc,GLBX c.0,ES.c.0,2026-10-28,unusual_spreads,0,0.0
+fomc,GLBX c.0,ES.c.0,2026-10-28,sequence_discontinuities,0,0.6
+es_roll,GLBX c.1,ES.c.1,2025-12-11,crossed_books,0,0.0
+es_roll,GLBX c.1,ES.c.1,2025-12-11,extreme_prices,0,0.0
+es_roll,GLBX c.1,ES.c.1,2025-12-11,timestamp_inversions,10,10.0
+es_roll,GLBX c.1,ES.c.1,2025-12-11,missing_intervals,111,122.0
+es_roll,GLBX c.1,ES.c.1,2025-12-11,stale_quotes,0,0.0
+es_roll,GLBX c.1,ES.c.1,2025-12-11,unusual_spreads,2,0.0
+es_roll,GLBX c.1,ES.c.1,2025-12-11,sequence_discontinuities,0,0.6
+es_roll,GLBX c.1,ES.c.1,2025-12-19,crossed_books,0,0.0
+es_roll,GLBX c.1,ES.c.1,2025-12-19,extreme_prices,0,0.0
+es_roll,GLBX c.1,ES.c.1,2025-12-19,timestamp_inversions,13,10.0
+es_roll,GLBX c.1,ES.c.1,2025-12-19,missing_intervals,72,122.0
+es_roll,GLBX c.1,ES.c.1,2025-12-19,stale_quotes,0,0.0
+es_roll,GLBX c.1,ES.c.1,2025-12-19,unusual_spreads,0,0.0
+es_roll,GLBX c.1,ES.c.1,2025-12-19,sequence_discontinuities,0,0.6
+es_roll,GLBX c.1,ES.c.1,2026-09-10,crossed_books,0,0.0
+es_roll,GLBX c.1,ES.c.1,2026-09-10,extreme_prices,0,0.0
+es_roll,GLBX c.1,ES.c.1,2026-09-10,timestamp_inversions,8,10.0
+es_roll,GLBX c.1,ES.c.1,2026-09-10,missing_intervals,255,122.0
+es_roll,GLBX c.1,ES.c.1,2026-09-10,stale_quotes,0,0.0
+es_roll,GLBX c.1,ES.c.1,2026-09-10,unusual_spreads,3,0.0
+es_roll,GLBX c.1,ES.c.1,2026-09-10,sequence_discontinuities,1,0.6
+es_roll,GLBX c.1,ES.c.1,2026-09-16,crossed_books,0,0.0
+es_roll,GLBX c.1,ES.c.1,2026-09-16,extreme_prices,0,0.0
+es_roll,GLBX c.1,ES.c.1,2026-09-16,timestamp_inversions,15,10.0
+es_roll,GLBX c.1,ES.c.1,2026-09-16,missing_intervals,174,122.0
+es_roll,GLBX c.1,ES.c.1,2026-09-16,stale_quotes,0,0.0
+es_roll,GLBX c.1,ES.c.1,2026-09-16,unusual_spreads,0,0.0
+es_roll,GLBX c.1,ES.c.1,2026-09-16,sequence_discontinuities,1,0.6
+es_roll,GLBX c.1,ES.c.1,2026-09-18,crossed_books,0,0.0
+es_roll,GLBX c.1,ES.c.1,2026-09-18,extreme_prices,0,0.0
+es_roll,GLBX c.1,ES.c.1,2026-09-18,timestamp_inversions,9,10.0
+es_roll,GLBX c.1,ES.c.1,2026-09-18,missing_intervals,160,122.0
+es_roll,GLBX c.1,ES.c.1,2026-09-18,stale_quotes,0,0.0
+es_roll,GLBX c.1,ES.c.1,2026-09-18,unusual_spreads,0,0.0
+es_roll,GLBX c.1,ES.c.1,2026-09-18,sequence_discontinuities,1,0.6
+normal_week_c1,GLBX c.1,ES.c.1,2026-10-08,crossed_books,0,0.0
+normal_week_c1,GLBX c.1,ES.c.1,2026-10-08,extreme_prices,0,0.0
+normal_week_c1,GLBX c.1,ES.c.1,2026-10-08,timestamp_inversions,5,10.0
+normal_week_c1,GLBX c.1,ES.c.1,2026-10-08,missing_intervals,503,122.0
+normal_week_c1,GLBX c.1,ES.c.1,2026-10-08,stale_quotes,0,0.0
+normal_week_c1,GLBX c.1,ES.c.1,2026-10-08,unusual_spreads,2,0.0
+normal_week_c1,GLBX c.1,ES.c.1,2026-10-08,sequence_discontinuities,0,0.6
+fomc,XNAS,AAPL,2025-12-10,crossed_books,0,0.0
+fomc,XNAS,AAPL,2025-12-10,extreme_prices,0,0.0
+fomc,XNAS,AAPL,2025-12-10,timestamp_inversions,1,0.6
+fomc,XNAS,AAPL,2025-12-10,missing_intervals,0,7.4
+fomc,XNAS,AAPL,2025-12-10,stale_quotes,0,0.2
+fomc,XNAS,AAPL,2025-12-10,unusual_spreads,0,0.0
+fomc,XNAS,AAPL,2025-12-10,sequence_discontinuities,1,0.0
+holiday,XNAS,AAPL,2025-12-24,crossed_books,0,0.0
+holiday,XNAS,AAPL,2025-12-24,extreme_prices,0,0.0
+holiday,XNAS,AAPL,2025-12-24,timestamp_inversions,1,0.6
+holiday,XNAS,AAPL,2025-12-24,missing_intervals,86,7.4
+holiday,XNAS,AAPL,2025-12-24,stale_quotes,2,0.2
+holiday,XNAS,AAPL,2025-12-24,unusual_spreads,8,0.0
+holiday,XNAS,AAPL,2025-12-24,sequence_discontinuities,1,0.0
+holiday,XNAS,AAPL,2025-12-26,crossed_books,0,0.0
+holiday,XNAS,AAPL,2025-12-26,extreme_prices,0,0.0
+holiday,XNAS,AAPL,2025-12-26,timestamp_inversions,0,0.6
+holiday,XNAS,AAPL,2025-12-26,missing_intervals,19,7.4
+holiday,XNAS,AAPL,2025-12-26,stale_quotes,0,0.2
+holiday,XNAS,AAPL,2025-12-26,unusual_spreads,1,0.0
+holiday,XNAS,AAPL,2025-12-26,sequence_discontinuities,0,0.0
+fomc,XNAS,AAPL,2026-01-28,crossed_books,0,0.0
+fomc,XNAS,AAPL,2026-01-28,extreme_prices,0,0.0
+fomc,XNAS,AAPL,2026-01-28,timestamp_inversions,2,0.6
+fomc,XNAS,AAPL,2026-01-28,missing_intervals,0,7.4
+fomc,XNAS,AAPL,2026-01-28,stale_quotes,0,0.2
+fomc,XNAS,AAPL,2026-01-28,unusual_spreads,0,0.0
+fomc,XNAS,AAPL,2026-01-28,sequence_discontinuities,1,0.0
+fomc,XNAS,AAPL,2026-10-28,crossed_books,0,0.0
+fomc,XNAS,AAPL,2026-10-28,extreme_prices,0,0.0
+fomc,XNAS,AAPL,2026-10-28,timestamp_inversions,1,0.6
+fomc,XNAS,AAPL,2026-10-28,missing_intervals,6,7.4
+fomc,XNAS,AAPL,2026-10-28,stale_quotes,0,0.2
+fomc,XNAS,AAPL,2026-10-28,unusual_spreads,2,0.0
+fomc,XNAS,AAPL,2026-10-28,sequence_discontinuities,1,0.0
+fomc,XNAS,ADTN,2025-12-10,crossed_books,0,0.0
+fomc,XNAS,ADTN,2025-12-10,extreme_prices,0,0.0
+fomc,XNAS,ADTN,2025-12-10,timestamp_inversions,1,0.0
+fomc,XNAS,ADTN,2025-12-10,missing_intervals,188,399.8
+fomc,XNAS,ADTN,2025-12-10,stale_quotes,11,1.2
+fomc,XNAS,ADTN,2025-12-10,unusual_spreads,0,0.0
+fomc,XNAS,ADTN,2025-12-10,sequence_discontinuities,1,0.0
+holiday,XNAS,ADTN,2025-12-24,crossed_books,0,0.0
+holiday,XNAS,ADTN,2025-12-24,extreme_prices,4,0.0
+holiday,XNAS,ADTN,2025-12-24,timestamp_inversions,1,0.0
+holiday,XNAS,ADTN,2025-12-24,missing_intervals,98,399.8
+holiday,XNAS,ADTN,2025-12-24,stale_quotes,0,1.2
+holiday,XNAS,ADTN,2025-12-24,unusual_spreads,1,0.0
+holiday,XNAS,ADTN,2025-12-24,sequence_discontinuities,1,0.0
+holiday,XNAS,ADTN,2025-12-26,crossed_books,0,0.0
+holiday,XNAS,ADTN,2025-12-26,extreme_prices,0,0.0
+holiday,XNAS,ADTN,2025-12-26,timestamp_inversions,0,0.0
+holiday,XNAS,ADTN,2025-12-26,missing_intervals,83,399.8
+holiday,XNAS,ADTN,2025-12-26,stale_quotes,0,1.2
+holiday,XNAS,ADTN,2025-12-26,unusual_spreads,0,0.0
+holiday,XNAS,ADTN,2025-12-26,sequence_discontinuities,0,0.0
+fomc,XNAS,ADTN,2026-01-28,crossed_books,0,0.0
+fomc,XNAS,ADTN,2026-01-28,extreme_prices,0,0.0
+fomc,XNAS,ADTN,2026-01-28,timestamp_inversions,1,0.0
+fomc,XNAS,ADTN,2026-01-28,missing_intervals,201,399.8
+fomc,XNAS,ADTN,2026-01-28,stale_quotes,2,1.2
+fomc,XNAS,ADTN,2026-01-28,unusual_spreads,0,0.0
+fomc,XNAS,ADTN,2026-01-28,sequence_discontinuities,1,0.0
+fomc,XNAS,ADTN,2026-10-28,crossed_books,0,0.0
+fomc,XNAS,ADTN,2026-10-28,extreme_prices,0,0.0
+fomc,XNAS,ADTN,2026-10-28,timestamp_inversions,1,0.0
+fomc,XNAS,ADTN,2026-10-28,missing_intervals,314,399.8
+fomc,XNAS,ADTN,2026-10-28,stale_quotes,1,1.2
+fomc,XNAS,ADTN,2026-10-28,unusual_spreads,0,0.0
+fomc,XNAS,ADTN,2026-10-28,sequence_discontinuities,1,0.0
+fomc,XNAS,CRWV,2025-12-10,crossed_books,0,0.0
+fomc,XNAS,CRWV,2025-12-10,extreme_prices,6,0.8
+fomc,XNAS,CRWV,2025-12-10,timestamp_inversions,1,0.0
+fomc,XNAS,CRWV,2025-12-10,missing_intervals,204,55.2
+fomc,XNAS,CRWV,2025-12-10,stale_quotes,0,0.6
+fomc,XNAS,CRWV,2025-12-10,unusual_spreads,0,0.0
+fomc,XNAS,CRWV,2025-12-10,sequence_discontinuities,1,0.0
+holiday,XNAS,CRWV,2025-12-24,crossed_books,0,0.0
+holiday,XNAS,CRWV,2025-12-24,extreme_prices,4,0.8
+holiday,XNAS,CRWV,2025-12-24,timestamp_inversions,1,0.0
+holiday,XNAS,CRWV,2025-12-24,missing_intervals,272,55.2
+holiday,XNAS,CRWV,2025-12-24,stale_quotes,3,0.6
+holiday,XNAS,CRWV,2025-12-24,unusual_spreads,14,0.0
+holiday,XNAS,CRWV,2025-12-24,sequence_discontinuities,1,0.0
+holiday,XNAS,CRWV,2025-12-26,crossed_books,0,0.0
+holiday,XNAS,CRWV,2025-12-26,extreme_prices,1,0.8
+holiday,XNAS,CRWV,2025-12-26,timestamp_inversions,0,0.0
+holiday,XNAS,CRWV,2025-12-26,missing_intervals,420,55.2
+holiday,XNAS,CRWV,2025-12-26,stale_quotes,0,0.6
+holiday,XNAS,CRWV,2025-12-26,unusual_spreads,0,0.0
+holiday,XNAS,CRWV,2025-12-26,sequence_discontinuities,0,0.0
+fomc,XNAS,CRWV,2026-01-28,crossed_books,0,0.0
+fomc,XNAS,CRWV,2026-01-28,extreme_prices,85,0.8
+fomc,XNAS,CRWV,2026-01-28,timestamp_inversions,1,0.0
+fomc,XNAS,CRWV,2026-01-28,missing_intervals,110,55.2
+fomc,XNAS,CRWV,2026-01-28,stale_quotes,1,0.6
+fomc,XNAS,CRWV,2026-01-28,unusual_spreads,0,0.0
+fomc,XNAS,CRWV,2026-01-28,sequence_discontinuities,1,0.0
+fomc,XNAS,CRWV,2026-10-28,crossed_books,0,0.0
+fomc,XNAS,CRWV,2026-10-28,extreme_prices,3,0.8
+fomc,XNAS,CRWV,2026-10-28,timestamp_inversions,1,0.0
+fomc,XNAS,CRWV,2026-10-28,missing_intervals,10,55.2
+fomc,XNAS,CRWV,2026-10-28,stale_quotes,0,0.6
+fomc,XNAS,CRWV,2026-10-28,unusual_spreads,1,0.0
+fomc,XNAS,CRWV,2026-10-28,sequence_discontinuities,1,0.0
+fomc,XNAS,LWAY,2025-12-10,crossed_books,0,0.0
+fomc,XNAS,LWAY,2025-12-10,extreme_prices,0,0.0
+fomc,XNAS,LWAY,2025-12-10,timestamp_inversions,1,0.0
+fomc,XNAS,LWAY,2025-12-10,missing_intervals,110,110.2
+fomc,XNAS,LWAY,2025-12-10,stale_quotes,38,8.4
+fomc,XNAS,LWAY,2025-12-10,unusual_spreads,0,0.0
+fomc,XNAS,LWAY,2025-12-10,sequence_discontinuities,1,0.0
+holiday,XNAS,LWAY,2025-12-24,crossed_books,0,0.0
+holiday,XNAS,LWAY,2025-12-24,extreme_prices,0,0.0
+holiday,XNAS,LWAY,2025-12-24,timestamp_inversions,1,0.0
+holiday,XNAS,LWAY,2025-12-24,missing_intervals,67,110.2
+holiday,XNAS,LWAY,2025-12-24,stale_quotes,0,8.4
+holiday,XNAS,LWAY,2025-12-24,unusual_spreads,0,0.0
+holiday,XNAS,LWAY,2025-12-24,sequence_discontinuities,1,0.0
+holiday,XNAS,LWAY,2025-12-26,crossed_books,0,0.0
+holiday,XNAS,LWAY,2025-12-26,extreme_prices,1,0.0
+holiday,XNAS,LWAY,2025-12-26,timestamp_inversions,0,0.0
+holiday,XNAS,LWAY,2025-12-26,missing_intervals,118,110.2
+holiday,XNAS,LWAY,2025-12-26,stale_quotes,7,8.4
+holiday,XNAS,LWAY,2025-12-26,unusual_spreads,0,0.0
+holiday,XNAS,LWAY,2025-12-26,sequence_discontinuities,0,0.0
+fomc,XNAS,LWAY,2026-01-28,crossed_books,0,0.0
+fomc,XNAS,LWAY,2026-01-28,extreme_prices,0,0.0
+fomc,XNAS,LWAY,2026-01-28,timestamp_inversions,1,0.0
+fomc,XNAS,LWAY,2026-01-28,missing_intervals,105,110.2
+fomc,XNAS,LWAY,2026-01-28,stale_quotes,12,8.4
+fomc,XNAS,LWAY,2026-01-28,unusual_spreads,0,0.0
+fomc,XNAS,LWAY,2026-01-28,sequence_discontinuities,1,0.0
+fomc,XNAS,LWAY,2026-10-28,crossed_books,0,0.0
+fomc,XNAS,LWAY,2026-10-28,extreme_prices,0,0.0
+fomc,XNAS,LWAY,2026-10-28,timestamp_inversions,1,0.0
+fomc,XNAS,LWAY,2026-10-28,missing_intervals,99,110.2
+fomc,XNAS,LWAY,2026-10-28,stale_quotes,37,8.4
+fomc,XNAS,LWAY,2026-10-28,unusual_spreads,0,0.0
+fomc,XNAS,LWAY,2026-10-28,sequence_discontinuities,1,0.0
+fomc,XNAS,MSFT,2025-12-10,crossed_books,0,0.0
+fomc,XNAS,MSFT,2025-12-10,extreme_prices,1,0.2
+fomc,XNAS,MSFT,2025-12-10,timestamp_inversions,1,0.2
+fomc,XNAS,MSFT,2025-12-10,missing_intervals,9,36.6
+fomc,XNAS,MSFT,2025-12-10,stale_quotes,0,0.0
+fomc,XNAS,MSFT,2025-12-10,unusual_spreads,1,0.0
+fomc,XNAS,MSFT,2025-12-10,sequence_discontinuities,1,0.0
+holiday,XNAS,MSFT,2025-12-24,crossed_books,0,0.0
+holiday,XNAS,MSFT,2025-12-24,extreme_prices,0,0.2
+holiday,XNAS,MSFT,2025-12-24,timestamp_inversions,1,0.2
+holiday,XNAS,MSFT,2025-12-24,missing_intervals,172,36.6
+holiday,XNAS,MSFT,2025-12-24,stale_quotes,0,0.0
+holiday,XNAS,MSFT,2025-12-24,unusual_spreads,8,0.0
+holiday,XNAS,MSFT,2025-12-24,sequence_discontinuities,1,0.0
+holiday,XNAS,MSFT,2025-12-26,crossed_books,0,0.0
+holiday,XNAS,MSFT,2025-12-26,extreme_prices,0,0.2
+holiday,XNAS,MSFT,2025-12-26,timestamp_inversions,0,0.2
+holiday,XNAS,MSFT,2025-12-26,missing_intervals,77,36.6
+holiday,XNAS,MSFT,2025-12-26,stale_quotes,0,0.0
+holiday,XNAS,MSFT,2025-12-26,unusual_spreads,0,0.0
+holiday,XNAS,MSFT,2025-12-26,sequence_discontinuities,0,0.0
+fomc,XNAS,MSFT,2026-01-28,crossed_books,0,0.0
+fomc,XNAS,MSFT,2026-01-28,extreme_prices,0,0.2
+fomc,XNAS,MSFT,2026-01-28,timestamp_inversions,2,0.2
+fomc,XNAS,MSFT,2026-01-28,missing_intervals,1,36.6
+fomc,XNAS,MSFT,2026-01-28,stale_quotes,0,0.0
+fomc,XNAS,MSFT,2026-01-28,unusual_spreads,2,0.0
+fomc,XNAS,MSFT,2026-01-28,sequence_discontinuities,1,0.0
+fomc,XNAS,MSFT,2026-10-28,crossed_books,0,0.0
+fomc,XNAS,MSFT,2026-10-28,extreme_prices,4,0.2
+fomc,XNAS,MSFT,2026-10-28,timestamp_inversions,1,0.2
+fomc,XNAS,MSFT,2026-10-28,missing_intervals,11,36.6
+fomc,XNAS,MSFT,2026-10-28,stale_quotes,0,0.0
+fomc,XNAS,MSFT,2026-10-28,unusual_spreads,2,0.0
+fomc,XNAS,MSFT,2026-10-28,sequence_discontinuities,1,0.0
+fomc,XNAS,NBIS,2025-12-10,crossed_books,0,0.0
+fomc,XNAS,NBIS,2025-12-10,extreme_prices,74,9.0
+fomc,XNAS,NBIS,2025-12-10,timestamp_inversions,1,0.0
+fomc,XNAS,NBIS,2025-12-10,missing_intervals,622,181.2
+fomc,XNAS,NBIS,2025-12-10,stale_quotes,4,1.6
+fomc,XNAS,NBIS,2025-12-10,unusual_spreads,0,0.0
+fomc,XNAS,NBIS,2025-12-10,sequence_discontinuities,1,0.0
+holiday,XNAS,NBIS,2025-12-24,crossed_books,0,0.0
+holiday,XNAS,NBIS,2025-12-24,extreme_prices,71,9.0
+holiday,XNAS,NBIS,2025-12-24,timestamp_inversions,1,0.0
+holiday,XNAS,NBIS,2025-12-24,missing_intervals,518,181.2
+holiday,XNAS,NBIS,2025-12-24,stale_quotes,5,1.6
+holiday,XNAS,NBIS,2025-12-24,unusual_spreads,4,0.0
+holiday,XNAS,NBIS,2025-12-24,sequence_discontinuities,1,0.0
+holiday,XNAS,NBIS,2025-12-26,crossed_books,0,0.0
+holiday,XNAS,NBIS,2025-12-26,extreme_prices,13,9.0
+holiday,XNAS,NBIS,2025-12-26,timestamp_inversions,0,0.0
+holiday,XNAS,NBIS,2025-12-26,missing_intervals,644,181.2
+holiday,XNAS,NBIS,2025-12-26,stale_quotes,2,1.6
+holiday,XNAS,NBIS,2025-12-26,unusual_spreads,0,0.0
+holiday,XNAS,NBIS,2025-12-26,sequence_discontinuities,0,0.0
+fomc,XNAS,NBIS,2026-01-28,crossed_books,0,0.0
+fomc,XNAS,NBIS,2026-01-28,extreme_prices,95,9.0
+fomc,XNAS,NBIS,2026-01-28,timestamp_inversions,1,0.0
+fomc,XNAS,NBIS,2026-01-28,missing_intervals,520,181.2
+fomc,XNAS,NBIS,2026-01-28,stale_quotes,4,1.6
+fomc,XNAS,NBIS,2026-01-28,unusual_spreads,0,0.0
+fomc,XNAS,NBIS,2026-01-28,sequence_discontinuities,1,0.0
+fomc,XNAS,NBIS,2026-10-28,crossed_books,0,0.0
+fomc,XNAS,NBIS,2026-10-28,extreme_prices,60,9.0
+fomc,XNAS,NBIS,2026-10-28,timestamp_inversions,2,0.0
+fomc,XNAS,NBIS,2026-10-28,missing_intervals,199,181.2
+fomc,XNAS,NBIS,2026-10-28,stale_quotes,3,1.6
+fomc,XNAS,NBIS,2026-10-28,unusual_spreads,1,0.0
+fomc,XNAS,NBIS,2026-10-28,sequence_discontinuities,1,0.0
+fomc,XNAS,NVDA,2025-12-10,crossed_books,0,0.0
+fomc,XNAS,NVDA,2025-12-10,extreme_prices,0,0.6
+fomc,XNAS,NVDA,2025-12-10,timestamp_inversions,1,0.6
+fomc,XNAS,NVDA,2025-12-10,missing_intervals,0,0.0
+fomc,XNAS,NVDA,2025-12-10,stale_quotes,0,0.0
+fomc,XNAS,NVDA,2025-12-10,unusual_spreads,0,0.2
+fomc,XNAS,NVDA,2025-12-10,sequence_discontinuities,1,0.0
+holiday,XNAS,NVDA,2025-12-24,crossed_books,0,0.0
+holiday,XNAS,NVDA,2025-12-24,extreme_prices,0,0.6
+holiday,XNAS,NVDA,2025-12-24,timestamp_inversions,1,0.6
+holiday,XNAS,NVDA,2025-12-24,missing_intervals,24,0.0
+holiday,XNAS,NVDA,2025-12-24,stale_quotes,1,0.0
+holiday,XNAS,NVDA,2025-12-24,unusual_spreads,7,0.2
+holiday,XNAS,NVDA,2025-12-24,sequence_discontinuities,1,0.0
+holiday,XNAS,NVDA,2025-12-26,crossed_books,0,0.0
+holiday,XNAS,NVDA,2025-12-26,extreme_prices,0,0.6
+holiday,XNAS,NVDA,2025-12-26,timestamp_inversions,0,0.6
+holiday,XNAS,NVDA,2025-12-26,missing_intervals,0,0.0
+holiday,XNAS,NVDA,2025-12-26,stale_quotes,0,0.0
+holiday,XNAS,NVDA,2025-12-26,unusual_spreads,0,0.2
+holiday,XNAS,NVDA,2025-12-26,sequence_discontinuities,0,0.0
+fomc,XNAS,NVDA,2026-01-28,crossed_books,0,0.0
+fomc,XNAS,NVDA,2026-01-28,extreme_prices,2,0.6
+fomc,XNAS,NVDA,2026-01-28,timestamp_inversions,1,0.6
+fomc,XNAS,NVDA,2026-01-28,missing_intervals,0,0.0
+fomc,XNAS,NVDA,2026-01-28,stale_quotes,0,0.0
+fomc,XNAS,NVDA,2026-01-28,unusual_spreads,7,0.2
+fomc,XNAS,NVDA,2026-01-28,sequence_discontinuities,1,0.0
+fomc,XNAS,NVDA,2026-10-28,crossed_books,0,0.0
+fomc,XNAS,NVDA,2026-10-28,extreme_prices,0,0.6
+fomc,XNAS,NVDA,2026-10-28,timestamp_inversions,2,0.6
+fomc,XNAS,NVDA,2026-10-28,missing_intervals,0,0.0
+fomc,XNAS,NVDA,2026-10-28,stale_quotes,0,0.0
+fomc,XNAS,NVDA,2026-10-28,unusual_spreads,9,0.2
+fomc,XNAS,NVDA,2026-10-28,sequence_discontinuities,1,0.0
+fomc,XNAS,PLAB,2025-12-10,crossed_books,0,0.0
+fomc,XNAS,PLAB,2025-12-10,extreme_prices,34,0.2
+fomc,XNAS,PLAB,2025-12-10,timestamp_inversions,1,0.0
+fomc,XNAS,PLAB,2025-12-10,missing_intervals,741,287.6
+fomc,XNAS,PLAB,2025-12-10,stale_quotes,11,1.8
+fomc,XNAS,PLAB,2025-12-10,unusual_spreads,0,0.2
+fomc,XNAS,PLAB,2025-12-10,sequence_discontinuities,1,0.0
+holiday,XNAS,PLAB,2025-12-24,crossed_books,0,0.0
+holiday,XNAS,PLAB,2025-12-24,extreme_prices,3,0.2
+holiday,XNAS,PLAB,2025-12-24,timestamp_inversions,1,0.0
+holiday,XNAS,PLAB,2025-12-24,missing_intervals,145,287.6
+holiday,XNAS,PLAB,2025-12-24,stale_quotes,2,1.8
+holiday,XNAS,PLAB,2025-12-24,unusual_spreads,1,0.2
+holiday,XNAS,PLAB,2025-12-24,sequence_discontinuities,1,0.0
+holiday,XNAS,PLAB,2025-12-26,crossed_books,0,0.0
+holiday,XNAS,PLAB,2025-12-26,extreme_prices,0,0.2
+holiday,XNAS,PLAB,2025-12-26,timestamp_inversions,0,0.0
+holiday,XNAS,PLAB,2025-12-26,missing_intervals,185,287.6
+holiday,XNAS,PLAB,2025-12-26,stale_quotes,5,1.8
+holiday,XNAS,PLAB,2025-12-26,unusual_spreads,0,0.2
+holiday,XNAS,PLAB,2025-12-26,sequence_discontinuities,0,0.0
+fomc,XNAS,PLAB,2026-01-28,crossed_books,0,0.0
+fomc,XNAS,PLAB,2026-01-28,extreme_prices,1,0.2
+fomc,XNAS,PLAB,2026-01-28,timestamp_inversions,1,0.0
+fomc,XNAS,PLAB,2026-01-28,missing_intervals,326,287.6
+fomc,XNAS,PLAB,2026-01-28,stale_quotes,8,1.8
+fomc,XNAS,PLAB,2026-01-28,unusual_spreads,0,0.2
+fomc,XNAS,PLAB,2026-01-28,sequence_discontinuities,1,0.0
+fomc,XNAS,PLAB,2026-10-28,crossed_books,0,0.0
+fomc,XNAS,PLAB,2026-10-28,extreme_prices,0,0.2
+fomc,XNAS,PLAB,2026-10-28,timestamp_inversions,1,0.0
+fomc,XNAS,PLAB,2026-10-28,missing_intervals,311,287.6
+fomc,XNAS,PLAB,2026-10-28,stale_quotes,7,1.8
+fomc,XNAS,PLAB,2026-10-28,unusual_spreads,0,0.2
+fomc,XNAS,PLAB,2026-10-28,sequence_discontinuities,1,0.0
+fomc,XNAS,QQQ,2025-12-10,crossed_books,0,0.0
+fomc,XNAS,QQQ,2025-12-10,extreme_prices,0,0.0
+fomc,XNAS,QQQ,2025-12-10,timestamp_inversions,1,1.6
+fomc,XNAS,QQQ,2025-12-10,missing_intervals,0,0.0
+fomc,XNAS,QQQ,2025-12-10,stale_quotes,0,0.0
+fomc,XNAS,QQQ,2025-12-10,unusual_spreads,3,0.0
+fomc,XNAS,QQQ,2025-12-10,sequence_discontinuities,1,0.0
+holiday,XNAS,QQQ,2025-12-24,crossed_books,0,0.0
+holiday,XNAS,QQQ,2025-12-24,extreme_prices,0,0.0
+holiday,XNAS,QQQ,2025-12-24,timestamp_inversions,1,1.6
+holiday,XNAS,QQQ,2025-12-24,missing_intervals,95,0.0
+holiday,XNAS,QQQ,2025-12-24,stale_quotes,1,0.0
+holiday,XNAS,QQQ,2025-12-24,unusual_spreads,3,0.0
+holiday,XNAS,QQQ,2025-12-24,sequence_discontinuities,1,0.0
+holiday,XNAS,QQQ,2025-12-26,crossed_books,0,0.0
+holiday,XNAS,QQQ,2025-12-26,extreme_prices,0,0.0
+holiday,XNAS,QQQ,2025-12-26,timestamp_inversions,0,1.6
+holiday,XNAS,QQQ,2025-12-26,missing_intervals,0,0.0
+holiday,XNAS,QQQ,2025-12-26,stale_quotes,0,0.0
+holiday,XNAS,QQQ,2025-12-26,unusual_spreads,0,0.0
+holiday,XNAS,QQQ,2025-12-26,sequence_discontinuities,0,0.0
+fomc,XNAS,QQQ,2026-01-28,crossed_books,0,0.0
+fomc,XNAS,QQQ,2026-01-28,extreme_prices,0,0.0
+fomc,XNAS,QQQ,2026-01-28,timestamp_inversions,1,1.6
+fomc,XNAS,QQQ,2026-01-28,missing_intervals,0,0.0
+fomc,XNAS,QQQ,2026-01-28,stale_quotes,0,0.0
+fomc,XNAS,QQQ,2026-01-28,unusual_spreads,12,0.0
+fomc,XNAS,QQQ,2026-01-28,sequence_discontinuities,1,0.0
+fomc,XNAS,QQQ,2026-10-28,crossed_books,0,0.0
+fomc,XNAS,QQQ,2026-10-28,extreme_prices,0,0.0
+fomc,XNAS,QQQ,2026-10-28,timestamp_inversions,2,1.6
+fomc,XNAS,QQQ,2026-10-28,missing_intervals,0,0.0
+fomc,XNAS,QQQ,2026-10-28,stale_quotes,0,0.0
+fomc,XNAS,QQQ,2026-10-28,unusual_spreads,0,0.0
+fomc,XNAS,QQQ,2026-10-28,sequence_discontinuities,1,0.0
+fomc,XNAS,SPY,2025-12-10,crossed_books,0,0.0
+fomc,XNAS,SPY,2025-12-10,extreme_prices,0,0.0
+fomc,XNAS,SPY,2025-12-10,timestamp_inversions,1,1.0
+fomc,XNAS,SPY,2025-12-10,missing_intervals,0,0.0
+fomc,XNAS,SPY,2025-12-10,stale_quotes,0,0.0
+fomc,XNAS,SPY,2025-12-10,unusual_spreads,1,0.4
+fomc,XNAS,SPY,2025-12-10,sequence_discontinuities,1,0.0
+holiday,XNAS,SPY,2025-12-24,crossed_books,0,0.0
+holiday,XNAS,SPY,2025-12-24,extreme_prices,0,0.0
+holiday,XNAS,SPY,2025-12-24,timestamp_inversions,1,1.0
+holiday,XNAS,SPY,2025-12-24,missing_intervals,71,0.0
+holiday,XNAS,SPY,2025-12-24,stale_quotes,0,0.0
+holiday,XNAS,SPY,2025-12-24,unusual_spreads,2,0.4
+holiday,XNAS,SPY,2025-12-24,sequence_discontinuities,1,0.0
+holiday,XNAS,SPY,2025-12-26,crossed_books,0,0.0
+holiday,XNAS,SPY,2025-12-26,extreme_prices,0,0.0
+holiday,XNAS,SPY,2025-12-26,timestamp_inversions,0,1.0
+holiday,XNAS,SPY,2025-12-26,missing_intervals,0,0.0
+holiday,XNAS,SPY,2025-12-26,stale_quotes,0,0.0
+holiday,XNAS,SPY,2025-12-26,unusual_spreads,0,0.4
+holiday,XNAS,SPY,2025-12-26,sequence_discontinuities,0,0.0
+fomc,XNAS,SPY,2026-01-28,crossed_books,0,0.0
+fomc,XNAS,SPY,2026-01-28,extreme_prices,0,0.0
+fomc,XNAS,SPY,2026-01-28,timestamp_inversions,1,1.0
+fomc,XNAS,SPY,2026-01-28,missing_intervals,0,0.0
+fomc,XNAS,SPY,2026-01-28,stale_quotes,0,0.0
+fomc,XNAS,SPY,2026-01-28,unusual_spreads,17,0.4
+fomc,XNAS,SPY,2026-01-28,sequence_discontinuities,1,0.0
+fomc,XNAS,SPY,2026-10-28,crossed_books,0,0.0
+fomc,XNAS,SPY,2026-10-28,extreme_prices,0,0.0
+fomc,XNAS,SPY,2026-10-28,timestamp_inversions,2,1.0
+fomc,XNAS,SPY,2026-10-28,missing_intervals,0,0.0
+fomc,XNAS,SPY,2026-10-28,stale_quotes,0,0.0
+fomc,XNAS,SPY,2026-10-28,unusual_spreads,8,0.4
+fomc,XNAS,SPY,2026-10-28,sequence_discontinuities,1,0.0

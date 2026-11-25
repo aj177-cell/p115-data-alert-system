@@ -1,0 +1,1 @@
+{"source": "sample", "venue": "XNAS", "symbol": "ADTN", "day": "2025-12-10", "records": 27382, "prior_rate": 1.1742171860326351, "holiday": null, "default:poisson": 188, "default:bayes": 135, "default:both": 102, "default:bayes_gt60": 9, "default:max_gap_s": 112.053776985, "secs": 0.2}

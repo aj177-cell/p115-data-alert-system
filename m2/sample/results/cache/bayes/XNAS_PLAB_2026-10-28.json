@@ -1,0 +1,1 @@
+{"source": "sample", "venue": "XNAS", "symbol": "PLAB", "day": "2026-10-28", "records": 22994, "prior_rate": 0.7334405808733475, "holiday": null, "default:poisson": 311, "default:bayes": 280, "default:both": 226, "default:bayes_gt60": 17, "default:max_gap_s": 100.696437829, "secs": 0.1}

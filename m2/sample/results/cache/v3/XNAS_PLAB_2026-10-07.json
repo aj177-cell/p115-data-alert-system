@@ -1,0 +1,1 @@
+{"source": "pilot", "venue": "XNAS", "symbol": "PLAB", "day": "2026-10-07", "records": 19642, "n:crossed_books": 0, "n:extreme_prices": 0, "n:timestamp_inversions": 0, "n:missing_intervals": 273, "n:stale_quotes": 2, "n:unusual_spreads": 0, "n:sequence_discontinuities": 0, "n:missing_intervals/gap": 273, "n:stale_quotes/stale": 2, "n:info": 0, "secs": 2.6}

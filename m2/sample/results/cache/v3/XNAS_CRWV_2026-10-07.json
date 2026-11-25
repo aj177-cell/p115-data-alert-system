@@ -1,0 +1,1 @@
+{"source": "pilot", "venue": "XNAS", "symbol": "CRWV", "day": "2026-10-07", "records": 283245, "n:crossed_books": 0, "n:extreme_prices": 1, "n:timestamp_inversions": 0, "n:missing_intervals": 49, "n:stale_quotes": 0, "n:unusual_spreads": 0, "n:sequence_discontinuities": 0, "n:extreme_prices/robust_z_trade": 1, "n:missing_intervals/gap": 49, "n:info": 0, "secs": 3.3}

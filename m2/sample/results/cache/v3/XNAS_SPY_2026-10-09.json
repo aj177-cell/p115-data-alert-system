@@ -1,0 +1,1 @@
+{"source": "pilot", "venue": "XNAS", "symbol": "SPY", "day": "2026-10-09", "records": 1663179, "n:crossed_books": 0, "n:extreme_prices": 0, "n:timestamp_inversions": 2, "n:missing_intervals": 0, "n:stale_quotes": 0, "n:unusual_spreads": 0, "n:sequence_discontinuities": 0, "n:timestamp_inversions/latency_outlier": 2, "n:info": 0, "secs": 12.0}

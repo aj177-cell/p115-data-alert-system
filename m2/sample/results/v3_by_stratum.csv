@@ -1,0 +1,12 @@
+venue_group,stratum,symbol_days,crossed_books,extreme_prices,timestamp_inversions,missing_intervals,stale_quotes,unusual_spreads,sequence_discontinuities
+GLBX c.0,cl_expiry,4,0.0,335.0,177.2,344.5,4.0,14.8,0.5
+GLBX c.0,es_roll,7,0.0,0.0,9.4,351.1,0.0,0.7,0.1
+GLBX c.0,fomc,7,0.0,3.1,149.7,641.3,0.3,0.4,0.3
+GLBX c.0,holiday,8,0.0,3.2,25.1,1205.1,2.5,1.0,0.5
+GLBX c.0,normal_week,10,0.0,2.3,103.2,480.0,0.1,0.1,0.5
+GLBX c.1,cl_expiry,2,0.0,2.5,398.5,736.5,0.0,0.0,0.0
+GLBX c.1,es_roll,5,0.0,0.0,11.0,154.4,0.0,1.0,0.6
+GLBX c.1,normal_week_c1,2,0.0,82.0,91.5,616.5,0.0,2.0,0.0
+XNAS,fomc,30,0.0,12.2,1.2,136.2,4.6,2.2,1.0
+XNAS,holiday,20,0.0,4.8,0.5,154.7,1.4,2.4,0.5
+XNAS,normal_week,50,0.0,1.1,0.4,107.8,1.4,0.1,0.0

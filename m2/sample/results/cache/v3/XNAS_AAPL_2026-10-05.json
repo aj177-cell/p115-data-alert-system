@@ -1,0 +1,1 @@
+{"source": "pilot", "venue": "XNAS", "symbol": "AAPL", "day": "2026-10-05", "records": 699745, "n:crossed_books": 0, "n:extreme_prices": 0, "n:timestamp_inversions": 1, "n:missing_intervals": 9, "n:stale_quotes": 0, "n:unusual_spreads": 0, "n:sequence_discontinuities": 0, "n:missing_intervals/gap": 9, "n:timestamp_inversions/latency_outlier": 1, "n:info": 0, "secs": 7.7}

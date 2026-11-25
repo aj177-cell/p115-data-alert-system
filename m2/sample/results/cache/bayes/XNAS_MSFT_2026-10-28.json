@@ -1,0 +1,1 @@
+{"source": "sample", "venue": "XNAS", "symbol": "MSFT", "day": "2026-10-28", "records": 817773, "prior_rate": 20.45860788139116, "holiday": null, "default:poisson": 11, "default:bayes": 11, "default:both": 11, "default:bayes_gt60": 0, "default:max_gap_s": 7.162596721, "secs": 0.3}

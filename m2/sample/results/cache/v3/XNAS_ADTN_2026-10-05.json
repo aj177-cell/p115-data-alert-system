@@ -1,0 +1,1 @@
+{"source": "pilot", "venue": "XNAS", "symbol": "ADTN", "day": "2026-10-05", "records": 26713, "n:crossed_books": 0, "n:extreme_prices": 0, "n:timestamp_inversions": 0, "n:missing_intervals": 404, "n:stale_quotes": 1, "n:unusual_spreads": 0, "n:sequence_discontinuities": 0, "n:missing_intervals/gap": 404, "n:stale_quotes/stale": 1, "n:info": 0, "secs": 2.4}

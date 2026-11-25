@@ -1,0 +1,1 @@
+{"source": "pilot", "venue": "GLBX", "symbol": "ES.c.0", "day": "2026-10-05", "records": 6059342, "n:crossed_books": 0, "n:extreme_prices": 0, "n:timestamp_inversions": 13, "n:missing_intervals": 82, "n:stale_quotes": 0, "n:unusual_spreads": 0, "n:sequence_discontinuities": 0, "n:missing_intervals/gap": 82, "n:timestamp_inversions/latency_outlier": 13, "n:info": 3, "secs": 38.4}

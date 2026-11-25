@@ -1,0 +1,1 @@
+{"source": "sample", "venue": "GLBX", "symbol": "ES.c.1", "day": "2025-12-19", "records": 6362712, "n:crossed_books": 0, "n:extreme_prices": 0, "n:timestamp_inversions": 13, "n:missing_intervals": 72, "n:stale_quotes": 0, "n:unusual_spreads": 0, "n:sequence_discontinuities": 0, "n:missing_intervals/gap": 72, "n:timestamp_inversions/latency_outlier": 13, "n:info": 5, "secs": 27.5}

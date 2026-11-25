@@ -1,0 +1,12 @@
+venue_group,stratum,symbol_days,poisson_per_day,bayes_per_day
+GLBX c.0,cl_expiry,4,344.5,286.0
+GLBX c.0,es_roll,7,351.1,323.1
+GLBX c.0,fomc,7,641.3,644.6
+GLBX c.0,holiday,8,1205.1,1200.4
+GLBX c.0,normal_week,10,480.0,484.6
+GLBX c.1,cl_expiry,2,736.5,740.0
+GLBX c.1,es_roll,5,154.4,146.4
+GLBX c.1,normal_week_c1,2,616.5,486.5
+XNAS,fomc,30,136.2,118.9
+XNAS,holiday,20,154.7,143.7
+XNAS,normal_week,50,107.8,93.6

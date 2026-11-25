@@ -1,0 +1,1 @@
+{"source": "pilot", "venue": "XNAS", "symbol": "LWAY", "day": "2026-10-07", "records": 3900, "n:crossed_books": 0, "n:extreme_prices": 0, "n:timestamp_inversions": 0, "n:missing_intervals": 107, "n:stale_quotes": 9, "n:unusual_spreads": 0, "n:sequence_discontinuities": 0, "n:missing_intervals/gap": 107, "n:stale_quotes/stale": 9, "n:info": 0, "secs": 2.4}

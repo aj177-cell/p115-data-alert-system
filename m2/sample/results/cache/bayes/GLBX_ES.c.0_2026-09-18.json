@@ -1,0 +1,1 @@
+{"source": "sample", "venue": "GLBX", "symbol": "ES.c.0", "day": "2026-09-18", "records": 338437, "prior_rate": 32.232012163329856, "holiday": null, "default:poisson": 850, "default:bayes": 768, "default:both": 748, "default:bayes_gt60": 6, "default:max_gap_s": 24339.539488338, "secs": 0.2}
