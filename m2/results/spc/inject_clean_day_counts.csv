@@ -1,0 +1,16 @@
+method,params,false_alarms
+bayes_gap,v3,1746
+poisson_gap,v3,1858
+spc_rate_cusum,nominal,80
+spc_rate_cusum,phase1,27
+spc_rate_ewma,nominal,81
+spc_rate_ewma,phase1,29
+spc_rate_shewhart,nominal,22
+spc_rate_shewhart,phase1,22
+spc_spread_cusum,nominal,42
+spc_spread_cusum,phase1,13
+spc_spread_ewma,nominal,41
+spc_spread_ewma,phase1,13
+spc_spread_shewhart,nominal,24
+spc_spread_shewhart,phase1,20
+spread_rule,v3,0

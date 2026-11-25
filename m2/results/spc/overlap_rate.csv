@@ -1,0 +1,4 @@
+chart,signals,point_buckets_poisson,sig_near_poisson,poisson_near_sig,point_buckets_bayes,sig_near_bayes,bayes_near_sig
+cusum,212.0,8768.0,116.0,551.0,7975.0,115.0,544.0
+ewma,250.0,8768.0,140.0,547.0,7975.0,139.0,538.0
+shewhart,147.0,8768.0,47.0,209.0,7975.0,46.0,209.0
